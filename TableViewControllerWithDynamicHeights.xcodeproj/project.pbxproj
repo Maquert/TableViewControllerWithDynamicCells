@@ -12,6 +12,8 @@
 		F551D9581C7B8FC300E36F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F551D9561C7B8FC300E36F76 /* Main.storyboard */; };
 		F551D95A1C7B8FC300E36F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F551D9591C7B8FC300E36F76 /* Assets.xcassets */; };
 		F551D95D1C7B8FC300E36F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F551D95B1C7B8FC300E36F76 /* LaunchScreen.storyboard */; };
+		F551D9651C7B901C00E36F76 /* DynamicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551D9641C7B901C00E36F76 /* DynamicCell.swift */; };
+		F551D9671C7B920A00E36F76 /* DynamicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F551D9661C7B920A00E36F76 /* DynamicCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F551D9591C7B8FC300E36F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F551D95C1C7B8FC300E36F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F551D95E1C7B8FC300E36F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F551D9641C7B901C00E36F76 /* DynamicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicCell.swift; sourceTree = "<group>"; };
+		F551D9661C7B920A00E36F76 /* DynamicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F551D9521C7B8FC300E36F76 /* AppDelegate.swift */,
 				F551D9541C7B8FC300E36F76 /* ViewController.swift */,
+				F551D9641C7B901C00E36F76 /* DynamicCell.swift */,
+				F551D9661C7B920A00E36F76 /* DynamicCell.xib */,
 				F551D9561C7B8FC300E36F76 /* Main.storyboard */,
 				F551D9591C7B8FC300E36F76 /* Assets.xcassets */,
 				F551D95B1C7B8FC300E36F76 /* LaunchScreen.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F551D95D1C7B8FC300E36F76 /* LaunchScreen.storyboard in Resources */,
+				F551D9671C7B920A00E36F76 /* DynamicCell.xib in Resources */,
 				F551D95A1C7B8FC300E36F76 /* Assets.xcassets in Resources */,
 				F551D9581C7B8FC300E36F76 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F551D9551C7B8FC300E36F76 /* ViewController.swift in Sources */,
+				F551D9651C7B901C00E36F76 /* DynamicCell.swift in Sources */,
 				F551D9531C7B8FC300E36F76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
